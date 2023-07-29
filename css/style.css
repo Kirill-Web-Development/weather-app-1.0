@@ -84,6 +84,10 @@ header {
     display: none;
 }
 
+.city-list li{
+    ursor: pointer;
+}
+
 .city-list li:not(:last-child) {
     margin-bottom: 15px;
     cursor: pointer;

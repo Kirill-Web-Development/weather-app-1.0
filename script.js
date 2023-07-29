@@ -88,10 +88,9 @@ async function getWether(apiKey, form, city = 'Blagoveshchensk') {
     const inputValue = Object.fromEntries(formData.entries())['city'];
 
     const response = await fetch('https://api.weatherapi.com/v1/current.json?q=' + (inputValue ? inputValue.trim() : city) + '&key=' + apiKey);
-    console.log(response)
 
     const data = await response.json();
-    console.log(data)
+
     if (data.error) {
         showError(data);
     } else{

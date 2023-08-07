@@ -9,3 +9,6 @@
 - All 3 variations you can find in script.js. <br>
 - Native JS, CSS, HTML. <br>
 - Inspired by https://www.youtube.com/watch?v=2yi252YNGKU&t=7322s.
+- 
+**GitHubPage:** <br>
+https://kirill-web-development.github.io/weather-app-1.0/
